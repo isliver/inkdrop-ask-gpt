@@ -1,0 +1,13 @@
+{
+    "name": "ask-gpt",
+    "main": "./lib/ask-gpt",
+    "version": "0.1.0",
+    "description": "Ask GPT plugin",
+    "keywords": [],
+    "repository": "https://github.com/isliver/inkdrop-ask-gpt",
+    "license": "MIT",
+    "engines": {
+        "inkdrop": "^5.x"
+    },
+    "dependencies": {}
+}

@@ -1,0 +1,8 @@
+{
+  "body": {
+    "ctrl-alt-o": "gpt:ask",
+    "ctrl-alt-t": "gpt:table",
+    "ctrl-alt-x": "gpt:translate",
+    "ctrl-alt-z": "gpt:spellChecking"
+  }
+}

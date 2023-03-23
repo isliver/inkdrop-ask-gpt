@@ -1,0 +1,55 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Ask GPT",
+        "submenu": [
+          {
+            "label": "Ask",
+            "command": "gpt:ask"
+          },
+          {
+            "label": "Table",
+            "command": "gpt:table"
+          },
+          {
+            "label": "Translate",
+            "command": "gpt:translate"
+          },
+          {
+            "label": "Spell Checking",
+            "command": "gpt:spellChecking"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "Ask GPT",
+          "submenu": [
+            {
+              "label": "Ask",
+              "command": "gpt:ask"
+            },
+            {
+              "label": "Table",
+              "command": "gpt:table"
+            },
+            {
+              "label": "Translate",
+              "command": "gpt:translate"
+            },
+            {
+              "label": "Spell Checking",
+              "command": "gpt:spellChecking"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
