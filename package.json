@@ -2,7 +2,7 @@
     "name": "ask-gpt",
     "main": "./lib/ask-gpt",
     "version": "1.0.0",
-    "description": "Ask GPT plugin",
+    "description": "Ask GPT plugin adds multiple functionalities using OpenAI GPT Chat",
     "keywords": [],
     "repository": "https://github.com/isliver/inkdrop-ask-gpt",
     "license": "MIT",
