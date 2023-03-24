@@ -1,7 +1,7 @@
 {
     "name": "ask-gpt",
     "main": "./lib/ask-gpt",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Ask GPT plugin",
     "keywords": [],
     "repository": "https://github.com/isliver/inkdrop-ask-gpt",
