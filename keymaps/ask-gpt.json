@@ -1,8 +1,8 @@
 {
   "body": {
-    "ctrl-alt-o": "gpt:ask",
-    "ctrl-alt-t": "gpt:table",
-    "ctrl-alt-x": "gpt:translate",
-    "ctrl-alt-z": "gpt:spellChecking"
+    "ctrl-alt-o": "ask-gpt:ask",
+    "ctrl-alt-t": "ask-gpt:table",
+    "ctrl-alt-x": "ask-gpt:translate",
+    "ctrl-alt-z": "ask-gpt:spellChecking"
   }
 }
