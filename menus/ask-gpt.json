@@ -6,19 +6,19 @@
         "submenu": [
           {
             "label": "Ask",
-            "command": "gpt:ask"
+            "command": "ask-gpt:ask"
           },
           {
             "label": "Table",
-            "command": "gpt:table"
+            "command": "ask-gpt:table"
           },
           {
             "label": "Translate",
-            "command": "gpt:translate"
+            "command": "ask-gpt:translate"
           },
           {
             "label": "Spell Checking",
-            "command": "gpt:spellChecking"
+            "command": "ask-gpt:spellChecking"
           }
         ]
       }
@@ -33,19 +33,19 @@
           "submenu": [
             {
               "label": "Ask",
-              "command": "gpt:ask"
+              "command": "ask-gpt:ask"
             },
             {
               "label": "Table",
-              "command": "gpt:table"
+              "command": "ask-gpt:table"
             },
             {
               "label": "Translate",
-              "command": "gpt:translate"
+              "command": "ask-gpt:translate"
             },
             {
               "label": "Spell Checking",
-              "command": "gpt:spellChecking"
+              "command": "ask-gpt:spellChecking"
             }
           ]
         }
