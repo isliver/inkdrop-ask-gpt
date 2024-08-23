@@ -1,8 +1,18 @@
 {
   "body": {
-    "ctrl-alt-o": "ask-gpt:ask",
-    "ctrl-alt-t": "ask-gpt:table",
+    "ctrl-alt-a": "ask-gpt:ask",
     "ctrl-alt-x": "ask-gpt:translate",
-    "ctrl-alt-z": "ask-gpt:spellChecking"
+    "ctrl-alt-s": "ask-gpt:spellChecking",
+    "ctrl-alt-q": "ask-gpt:questionGeneration",
+    "ctrl-alt-t": "ask-gpt:table",
+    "ctrl-alt-r": "ask-gpt:summary",
+    "ctrl-alt-p": "ask-gpt:keywordExtraction",
+    "ctrl-alt-e": "ask-gpt:styleSuggestions",
+    "ctrl-alt-c": "ask-gpt:paraphrasing",
+    "ctrl-alt-w": "ask-gpt:textExpansion",
+    "ctrl-alt-m": "ask-gpt:textSimplification",
+    "ctrl-alt-f": "ask-gpt:formalConversion",
+    "ctrl-alt-i": "ask-gpt:informalConversion",
+    "ctrl-alt-n": "ask-gpt:technicalConversion"
   }
 }

@@ -9,16 +9,85 @@
             "command": "ask-gpt:ask"
           },
           {
-            "label": "Table",
-            "command": "ask-gpt:table"
-          },
-          {
             "label": "Translate",
             "command": "ask-gpt:translate"
           },
           {
             "label": "Spell Checking",
             "command": "ask-gpt:spellChecking"
+          },
+
+          {
+            "label": "Text Analysis",
+            "submenu": [
+              {
+                "label": "Table",
+                "command": "ask-gpt:table"
+              },
+              {
+                "label": "Summary",
+                "command": "ask-gpt:summary"
+              },
+              {
+                "label": "Keyword Extraction",
+                "command": "ask-gpt:keywordExtraction"
+              }
+              
+            ]
+          },
+          
+          {
+            "label": "Writing Enhancement",
+            "submenu": [
+              {
+                "label": "Style Suggestions",
+                "command": "ask-gpt:styleSuggestions"
+              },
+              {
+                "label": "Paraphrasing",
+                "command": "ask-gpt:paraphrasing"
+              },
+              {
+                "label": "Text Expansion",
+                "command": "ask-gpt:textExpansion"
+              }
+            ]
+          },
+          {
+            "label": "Text Transformation",
+            "submenu": [
+              {
+                "label": "Text Simplification",
+                "command": "ask-gpt:textSimplification"
+              },
+              {
+                "label": "Format Conversion",
+                "submenu": [
+                  {
+                    "label": "Formal",
+                    "command": "ask-gpt:formalConversion"
+                  },
+                  {
+                    "label": "Informal",
+                    "command": "ask-gpt:informalConversion"
+                  },
+                  {
+                    "label": "Technical",
+                    "command": "ask-gpt:technicalConversion"
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "label": "Content Generation",
+            "submenu": [
+              {
+                "label": "Question Generation",
+                "command": "ask-gpt:questionGeneration"
+              }
+            ]
           }
         ]
       }
@@ -36,16 +105,81 @@
               "command": "ask-gpt:ask"
             },
             {
-              "label": "Table",
-              "command": "ask-gpt:table"
-            },
-            {
               "label": "Translate",
               "command": "ask-gpt:translate"
             },
             {
               "label": "Spell Checking",
               "command": "ask-gpt:spellChecking"
+            },
+            {
+              "label": "Text Analysis",
+              "submenu": [
+                {
+                  "label": "Table",
+                  "command": "ask-gpt:table"
+                },
+                {
+                  "label": "Summary",
+                  "command": "ask-gpt:summary"
+                },
+                {
+                  "label": "Keyword Extraction",
+                  "command": "ask-gpt:keywordExtraction"
+                }
+              ]
+            },
+            {
+              "label": "Writing Enhancement",
+              "submenu": [
+                {
+                  "label": "Style Suggestions",
+                  "command": "ask-gpt:styleSuggestions"
+                },
+                {
+                  "label": "Paraphrasing",
+                  "command": "ask-gpt:paraphrasing"
+                },
+                {
+                  "label": "Text Expansion",
+                  "command": "ask-gpt:textExpansion"
+                }
+              ]
+            },
+            {
+              "label": "Text Transformation",
+              "submenu": [
+                {
+                  "label": "Text Simplification",
+                  "command": "ask-gpt:textSimplification"
+                },
+                {
+                  "label": "Format Conversion",
+                  "submenu": [
+                    {
+                      "label": "Formal",
+                      "command": "ask-gpt:formalConversion"
+                    },
+                    {
+                      "label": "Informal",
+                      "command": "ask-gpt:informalConversion"
+                    },
+                    {
+                      "label": "Technical",
+                      "command": "ask-gpt:technicalConversion"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Content Generation",
+              "submenu": [
+                {
+                  "label": "Question Generation",
+                  "command": "ask-gpt:questionGeneration"
+                }
+              ]
             }
           ]
         }
